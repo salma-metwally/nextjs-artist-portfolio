@@ -25,7 +25,7 @@ if (!firebase.apps.length) {
 
 const projectStorage = firebaseapp.storage();
 const projectFirestore = firebaseapp.firestore();
-const analytics = firebaseapp.getAnalytics();
+const analytics = firebase.getAnalytics(firebaseapp);
 const timeStamp = firebase.firestore.FieldValue.serverTimestamp();
 const auth = firebase.auth();
 const persistance = firebase.auth.Auth.Persistence.NONE;
