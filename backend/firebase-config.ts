@@ -5,13 +5,13 @@ import "firebase/storage";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyCoMQYWhg0GrfD8OG49QwxQOOMorYGMvS4",
-  authDomain: "artist-portfolio-9d6b8.firebaseapp.com",
-  projectId: "artist-portfolio-9d6b8",
-  storageBucket: "artist-portfolio-9d6b8.appspot.com",
-  messagingSenderId: "281662124647",
-  appId: "1:281662124647:web:b7e0912ca7f95aebcc1ac2",
-  measurementId: "G-5G7QPCK9E6",
+  apiKey: "AIzaSyDRPXrrCx-mRssRl3qPND-lRz7v755_dkg",
+  authDomain: "portofolio-dbd51.firebaseapp.com",
+  projectId: "portofolio-dbd51",
+  storageBucket: "portofolio-dbd51.appspot.com",
+  messagingSenderId: "737027851280",
+  appId: "1:737027851280:web:6b7ee940f7268b7f2fb695",
+  measurementId: "G-31NWFB7JC1"
 };
 
 var firebaseapp = null;
@@ -24,6 +24,7 @@ if (!firebase.apps.length) {
 
 const projectStorage = firebaseapp.storage();
 const projectFirestore = firebaseapp.firestore();
+const analytics = firebaseapp.getAnalytics();
 const timeStamp = firebase.firestore.FieldValue.serverTimestamp();
 const auth = firebase.auth();
 const persistance = firebase.auth.Auth.Persistence.NONE;
