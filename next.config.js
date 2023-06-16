@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 const withOffline = require("next-offline");
 
 const nextConfig = {
