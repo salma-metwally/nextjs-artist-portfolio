@@ -26,20 +26,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "update-steps && next start",
+    "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
   },
   "dependencies": {
+    "eslint-plugin-react-hooks": "^5.0.0-canary-4ddc019ac-20230614",
     "firebase": "^8.6.8",
     "framer-motion": "^4.1.17",
     "nanoid": "^3.1.23",
     "next": "11.0.0",
+    "next-offline": "^5.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-reveal": "^1.2.2",
-    "swiper": "^6.7.5",
-    "next-offline": "^5.0.5"
+    "swiper": "^6.7.5"
   },
   "devDependencies": {
     "@types/react": "17.0.11",

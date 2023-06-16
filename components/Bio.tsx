@@ -17,8 +17,8 @@ export const Bio: React.SFC = () => {
       <section className="py-8 col-span-10 col-start-2 col-end-12 text-center text-gray-600 font-light">
         <Image
           loader={bioImageLoader}
-          src="https://res.cloudinary.com/wecloud/image/upload/v1625592156/artist-portfolio/bio_i7nqs3.jpg"
           alt="Picture for Bio"
+          src="https://raw.githubusercontent.com/salma-metwally/nextjs-artist-portfolio/main/mock/image_06.jpeg"
           objectFit="contain"
           width={1200}
           height={600}
